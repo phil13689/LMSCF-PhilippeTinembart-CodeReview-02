@@ -1,0 +1,332 @@
+body {
+  max-width: 100%;
+  margin: 0; }
+
+/*-------HEADER */
+header {
+  max-width: 100%; }
+
+#header {
+  height: 100px;
+  background-color: #5E191B; }
+
+#headerlogo {
+  padding-left: 1%;
+  padding-top: 2%;
+  -webkit-filter: drop-shadow(2px 2px 2px grey); }
+
+#headerbanner {
+  float: right;
+  padding-right: 1%;
+  padding-top: 1%;
+  max-width: 100%;
+  max-height: 100%; }
+
+/*----------NAVBAR------- */
+nav {
+  max-width: 100%;
+  height: 10%;
+  background-color: black; }
+
+#navbar {
+  overflow: hidden;
+  margin: 0;
+  margin-right: 8%;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  padding-top: 1%; }
+
+#navbar li {
+  display: inline;
+  margin: 0; }
+
+#navbar li a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  font-size: 150%; }
+
+#navbar a {
+  text-decoration: none;
+  font-family: oswald, sans-serif;
+  font-size: 200%;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: normal;
+  letter-spacing: normal;
+  line-height: 1.3em;
+  color: #596365;
+  padding: 0px 10px; }
+
+#navbar a:hover {
+  text-decoration: none;
+  font-family: open sans, sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: normal;
+  letter-spacing: normal;
+  line-height: 1.3em;
+  color: #5E191B;
+  background-color: lightgrey;
+  border-radius: 15px;
+  transition-duration: 0.5s;
+  opacity: 0.8;
+  /*---------------Date----------- */ }
+
+#time {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 1%;
+  font-family: open sans, sans-serif;
+  font-weight: bold;
+  max-width: 100%;
+  /*----------Container */ }
+
+.container {
+  margin: auto;
+  display: block;
+  justify-content: center;
+  width: 1200px;
+  height: auto;
+  max-width: 100%; }
+
+img {
+  -webkit-filter: drop-shadow(2px 2px 2px grey); }
+
+.top {
+  width: 100%;
+  background-color: #DDDDDD;
+  font-family: open sans, sans-serif;
+  color: grey;
+  max-width: 100%; }
+
+aside {
+  float: right;
+  padding-left: 10px;
+  max-width: 100%; }
+
+/*-----------------1st picture section------ */
+#firstpart {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: auto;
+  max-width: 100%; }
+
+#firstpart img {
+  width: 350px;
+  height: auto;
+  max-width: 100%; }
+
+.description {
+  position: absolute;
+  bottom: 8px;
+  left: 16px; }
+
+#subtop {
+  width: 1085px;
+  background-color: #DDDDDD;
+  font-family: open sans, sans-serif;
+  color: grey;
+  max-width: 100%; }
+
+.image {
+  position: relative; }
+
+.text-block {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+  border-radius: 10px;
+  max-width: 100%; }
+
+#hidden {
+  display: none; }
+
+/*-------2nd Picture section----- */
+#secondpart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  max-width: 100%; }
+
+#secondpart img {
+  width: 350px;
+  height: auto;
+  max-width: 100%;
+  /*-------banner 3------ */ }
+
+#bannerIII {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  padding: 2%;
+  width: 100%; }
+
+.banner3 img {
+  display: block;
+  justify-content: center;
+  max-width: 100%; }
+
+/*-----------3rd picture section----- */
+#thirdpart {
+  column-count: 2;
+  display: block;
+  justify-content: space-between;
+  max-width: 100%; }
+
+#thirdpart img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%; }
+
+/*-------------FOOTER--------- */
+#footer {
+  max-width: 100%;
+  height: 300px;
+  background-color: black; }
+
+#footsection {
+  float: right;
+  text-align: center;
+  max-width: 100%;
+  padding-top: 5%;
+  padding-right: 2%; }
+
+#footerlogo {
+  padding-left: 1%;
+  padding-top: 2%;
+  -webkit-filter: drop-shadow(2px 2px 2px grey);
+  max-width: 100%; }
+
+#footnav {
+  overflow: hidden;
+  margin: 0;
+  margin-right: 8%;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  padding-top: 1%; }
+
+#footnav li {
+  display: inline;
+  margin: 0; }
+
+#footnav li a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 150%; }
+
+#footnav a {
+  text-decoration: none;
+  font-family: oswald, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: normal;
+  letter-spacing: normal;
+  line-height: 1.3em;
+  color: #596365;
+  padding: 0px 10px; }
+
+#footnav a:hover {
+  text-decoration: none;
+  font-family: open sans, sans-serif;
+  font-size: 180%;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: normal;
+  letter-spacing: normal;
+  line-height: 1.3em;
+  color: #5E191B;
+  background-color: lightgrey;
+  border-radius: 15px;
+  transition-duration: 0.5s;
+  opacity: 0.8; }
+
+#name {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 15%; }
+
+iframe {
+  padding-left: 25%;
+  margin: 2%; }
+
+/*-------------media queries----------------- */
+/*################################
+ * #                              #
+ * #    TABLET LANDSCAPE          #
+ * #                              #
+ * ################################ */
+@media screen and (max-width: 1060px) {
+  #primary {
+    width: 67%; }
+
+  #secondary {
+    width: 30%;
+    margin-left: 3%; } }
+/* Tabled Portrait */
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%; } }
+#secondary {
+  width: 100%;
+  margin: 0;
+  border: none; }
+
+@media (min-device-width: 600px) {
+  img[data-src-600px] {
+    content: attr(data-src-600px, url); } }
+@media (min-device-width: 800px) {
+  img[data-src-800px] {
+    content: attr(data-src-800px, url); } }
+/*################################
+ * #                              #
+ * #    NARROW SCREEN             #
+ * #                              #
+ * ################################ */
+@media screen and (max-width: 480px) {
+  #headerbanner {
+    display: none; }
+
+  article {
+    column-count: 2;
+    -webkit-column-count: 2;
+    -webkit-flex-direction: column;
+    flex-direction: column; }
+
+  aside {
+    display: none; }
+
+  #b3 {
+    display: none; }
+
+  #spandate {
+    display: none; }
+
+  .image {
+    flex-direction: column; }
+
+  img {
+    display: display; }
+
+  #hidden {
+    display: block; } }
+/*-------------------Culture Page---------- */
+#culture {
+  width: 400px;
+  height: 200px;
+  padding: 1%; }
+
+/*# sourceMappingURL=style.css.map */
